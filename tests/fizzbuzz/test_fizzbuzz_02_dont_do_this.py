@@ -1,4 +1,4 @@
-# test_fizzbuzz_02_dont_do_thi
+# test_fizzbuzz_02_dont_do_this
 
 from fizzbuzz import fizzbuzz
 
