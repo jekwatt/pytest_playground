@@ -15,6 +15,7 @@ FIZZ_BUZZ_TEST_CASES = [
 ]
 
 
+@pytest.mark.smoke
 @pytest.mark.parametrize("value, expected", FIZZ_BUZZ_TEST_CASES)
 def test_fizzbuzz(value, expected):
     assert fizzbuzz(value) == expected

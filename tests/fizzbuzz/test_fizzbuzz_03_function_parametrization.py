@@ -5,6 +5,8 @@ import pytest
 from fizzbuzz import fizzbuzz
 
 
+@pytest.mark.smoke
+@pytest.mark.fizzbuzz
 @pytest.mark.parametrize(
     "value, expected",
     [

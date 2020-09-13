@@ -27,6 +27,7 @@ def pytest_generate_tests(metafunc):
                              ids=idfn)
 
 
+@pytest.mark.fizzbuzz
 def test_gen(gen_case):
     value, expected = gen_case
     assert fizzbuzz(value) == expected
