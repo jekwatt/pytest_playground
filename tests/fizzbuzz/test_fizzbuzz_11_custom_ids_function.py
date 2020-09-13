@@ -25,6 +25,7 @@ def a_case(request):
     return request.param
 
 
+@pytest.mark.fizzbuzz
 def test_fix(a_case):
     value, expected = a_case
     assert fizzbuzz(value) == expected
