@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jekwatt/pytest_playground/master)
+
 # pytest_playground
 In which I play around with pytest
 
